@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -7,6 +8,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
@@ -35,11 +37,21 @@
     <div class="container">
       <h2>Sobre mí</h2>
       <p>
-        Soy Cristian Sepúlveda, especialista en transformación digital y metodología ágil. Con más de 20 años de experiencia en tecnologías de la información, especializado en proyectos de transformación digital y metodologías ágiles como Scrum, Kanban y SAFe. Durante más de 7 años, me he dedicado específicamente a la agilidad, liderando con éxito equipos técnicos y de gestión en entornos de alta exigencia, y logrando la entrega continua de valor y la adopción de prácticas ágiles en diversas organizaciones.
+        Soy Cristian Sepúlveda, especialista en transformación digital y metodología ágil. Con más de 20 años de
+        experiencia en tecnologías de la información, especializado en proyectos de transformación digital y
+        metodologías ágiles como Scrum, Kanban y SAFe. Durante más de 7 años, me he dedicado específicamente a la
+        agilidad, liderando con éxito equipos técnicos y de gestión en entornos de alta exigencia, y logrando la entrega
+        continua de valor y la adopción de prácticas ágiles en diversas organizaciones.
 
-Como Ingeniero Informático con un diplomado en Marketing Digital y Gestión Estratégica, me he destacado por mi capacidad para entrenar, asesorar y guiar equipos en la implementación de marcos ágiles, adaptándolos a las necesidades particulares de cada proyecto. Mi enfoque proactivo, resiliente y orientado a la mejora continua me ha permitido liderar la facilitación de lanzamientos de software y la gestión del ciclo de vida de aplicaciones en entornos complejos.
+        Como Ingeniero Informático con un diplomado en Marketing Digital y Gestión Estratégica, me he destacado por mi
+        capacidad para entrenar, asesorar y guiar equipos en la implementación de marcos ágiles, adaptándolos a las
+        necesidades particulares de cada proyecto. Mi enfoque proactivo, resiliente y orientado a la mejora continua me
+        ha permitido liderar la facilitación de lanzamientos de software y la gestión del ciclo de vida de aplicaciones
+        en entornos complejos.
 
-Mi habilidad para fomentar la autogestión, junto con mi profunda comprensión de los principios ágiles, me convierten en un líder eficaz y un valioso activo para cualquier organización que busque impulsar su transformación digital y optimizar sus procesos de desarrollo de software.
+        Mi habilidad para fomentar la autogestión, junto con mi profunda comprensión de los principios ágiles, me
+        convierten en un líder eficaz y un valioso activo para cualquier organización que busque impulsar su
+        transformación digital y optimizar sus procesos de desarrollo de software.
       </p>
     </div>
   </section>
@@ -112,7 +124,7 @@ Mi habilidad para fomentar la autogestión, junto con mi profunda comprensión d
     </div>
   </section>
 
-   <!-- Proyectos -->
+  <!-- Proyectos -->
   <section class="section" id="proyectos_agile">
     <div class="container">
       <h2>Proyectos Agiles</h2>
@@ -148,9 +160,9 @@ Mi habilidad para fomentar la autogestión, junto con mi profunda comprensión d
 
   <!-- Contacto -->
   <section class="section" id="contacto">
-    <div class="container">
+   <!--  <div class="container">
       <h2>Contacto</h2>
-      <form>
+      <form action="https://formspree.io/f/xnnzvgwl" method="POST">
         <div class="mb-3">
           <label for="nombre" class="form-label">Nombre</label>
           <input type="text" class="form-control" id="nombre" required>
@@ -160,11 +172,29 @@ Mi habilidad para fomentar la autogestión, junto con mi profunda comprensión d
           <input type="email" class="form-control" id="email" required>
         </div>
         <div class="mb-3">
-          <label for="mensaje" class="form-label">Mensaje</label>
-          <textarea class="form-control" id="mensaje" rows="4"></textarea>
+          <label for="mensaje0" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="mensaje0" rows="4"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
+    </div> -->
+    <div class="container">
+      <h2>Contacto</h2>
+      <!-- modify this form HTML and place wherever you want your form -->
+      <form action="https://formspree.io/f/xnnzvgwl" method="POST">
+        <div class class="mb-3">
+          <label for="email" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" name="email" id="email">
+        </div>
+        <div class class="mb-3">
+          <label for="mensaje" class="form-label">Mensaje</label>
+          <textarea class="form-control" id="mensaje" name="message" rows="4"></textarea>
+        </div>
+        <!-- your other form fields go here -->
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+
+
     </div>
   </section>
 
@@ -172,4 +202,5 @@ Mi habilidad para fomentar la autogestión, junto con mi profunda comprensión d
     <p>&copy; 2025 Cristian Sepúlveda - Portafolio DevOps & Agilidad</p>
   </footer>
 </body>
+
 </html>
